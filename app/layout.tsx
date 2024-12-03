@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "프론트엔드 개발자 포트폴리오",
+  title: "Kim Jiseong's Website",
   description: "프론트엔드 개발자의 이력서와 포트폴리오",
 };
 

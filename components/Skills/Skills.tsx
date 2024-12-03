@@ -38,7 +38,7 @@ export default function Skills() {
     };
     return acc;
   }, {});
-  console.log(chartConfig);
+  // console.log(chartConfig);
 
   return (
     <motion.section

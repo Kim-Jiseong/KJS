@@ -157,16 +157,68 @@
     "title": "포트폴리오",
     "projects": [
       {
-        "title": "AI 기반 의료 플랫폼 - 프론트엔드 리드",
-        "description": "AI 기반 의료 진단 도구를 위한 사용자 친화적 인터페이스 개발",
-        "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Redux"],
-        "liveUrl": "https://example.com/project1",
-        "githubUrl": "https://github.com/yourusername/project1",
-        "image": "/placeholder.svg"
+        "title": "MEDAI ARNA",
+        "introduction": "비뇨기 의료 인공지능 프로그램",
+        "description": "참여한 부분 \n1. 전체 UI 단독 기획 및 디자인 \n 2. 프로그램 Frontend 전체 영역 단독 개발 (Dicom Viewer, 3D Viewer 포함) \n 3. Backend 구조 설계 참여 및 서버 네트워크 구성 \n\n참여하지 않은 부분 \n 1. AI 알고리즘 개발 \n 2. 백엔드 API 서버 개발",
+        "technologies": [
+          "React.js",
+          "TypeScript",
+          "styled-components",
+          "Recoil",
+          "Electron",
+          "PWA",
+          "PostgreSQL",
+          "FastAPI"
+        ],
+        "liveUrl": "",
+        "githubUrl": "",
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D562DAQGmH414u1g52A/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1721119009669?e=1733828400&v=beta&t=cciPGV4InecsMDbdSX2mDPvau77QfvNZKVSSEeXILGM",
+          "https://media.licdn.com/dms/image/v2/D562DAQHUwsPAAKiVbw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1721119024216?e=1733828400&v=beta&t=X0QQcsIlXRj_-moU9DkU2JXycSPtKP0xQ7Dyy7GuagU"
+        ]
+      },
+      {
+        "title": "groopy",
+        "introduction": "누구나 쉽게 AI 팀을 만들고 공유할 수 있는 노코드 플랫폼",
+        "description": "Try out a professional AI Agent team in just 10 seconds. \nMake your own AI team in 10 minutes.\n\ngroopy는 누구나 쉽게 자기만의 Multi-Agent AI 팀을 만들고, 공유하며, 판매할 수 있는 플랫폼입니다\n\ngroopy에서는 엔지니어가 아니더라도 누구든지 손쉽게 자신만의 전문성을 담은 AI 팀을 만들어 작업을 자동화하고, 아이디어를 구현하며, 경제적 기회를 만들어낼 수 있습니다 ",
+        "technologies": [
+          "React.js",
+          "TypeScript",
+          "styled-components",
+          "Recoil",
+          "Electron",
+          "PWA",
+          "PostgreSQL",
+          "FastAPI"
+        ],
+        "liveUrl": "https://groopy.me",
+        "githubUrl": "",
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D562DAQHGCTaZtNRx5w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218303916?e=1733824800&v=beta&t=PmUSehnvXVrqTwr1EU4bPHN6XW5pNlOLBtJOvjazIbs",
+          "https://media.licdn.com/dms/image/v2/D562DAQHKltWu34zoYw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218326595?e=1733824800&v=beta&t=rpX059YzP_PGq8-IW0xP6dATsPrJuZKK7cOoB7sXohM",
+          "https://media.licdn.com/dms/image/v2/D562DAQGpi8sksC9muQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218343420?e=1733824800&v=beta&t=NbDSzY-QoGsN9zYA_TuZO-zi_CS3RYsSg4fDVatazvc",
+          "https://media.licdn.com/dms/image/v2/D562DAQHbGtU9u-NgyA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218351851?e=1733824800&v=beta&t=FNF6Sea3tzTOljCXTrdPJb0ssEEquIgbJKIEZJQe9kk"
+        ]
+      },
+      {
+        "title": "KUIN (쿠인)",
+        "introduction": "48시간 안에 끝나는 초단기 프로젝트 아웃소싱 플랫폼",
+        "description": "이 프로젝트는 약 2주간 진행한 사이드 프로젝트로, 기획부터 디자인, 프론트엔드, 백엔드까지 모두 혼자서 진행했습니다. \n이 플랫폼은 48시간 이내에 웹사이트 수정, 이벤트 페이지 디자인 등 귀찮지만 꼭 필요한 작업을 대신 처리해줌으로써, 고객들이 보다 중요한 일에 집중할 수 있도록 지원하는 초단기 프로젝트 매칭 플랫폼입니다.\n\n이 서비스를 통해 고객들은 짧은 시간 내에 필요한 개발 또는 디자인 작업을 전문가에게 맡길 수 있으며, 규모가 작고 연속적이지 않은 일을 위해 개발자나 디자이너를 상시 고용할 필요가 없습니다. 이를 통해 고객들은 비즈니스 효율성을 극대화할 수 있습니다.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Recoil",
+          "supabase"
+        ],
+        "liveUrl": "https://kuin.me/",
+        "githubUrl": "",
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D562DAQF6BD2LPo1Q6w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1727152607364?e=1733824800&v=beta&t=76iHUPbCI_ZgfpckST49Hz1dAf4rk7uZBM06VOEYe1E",
+          "https://media.licdn.com/dms/image/sync/v2/D5627AQHQhvcQuz46fQ/articleshare-shrink_800/articleshare-shrink_800/0/1727153247846?e=1733824800&v=beta&t=7qD4DsfW8WIbufdDECovVGb4T5FK0-MtPWzdDjdx1YM"
+        ]
       }
-    ],
-    "liveDemo": "라이브 데모",
-    "sourceCode": "소스 코드"
+    ]
   },
 
   "achievements": {
