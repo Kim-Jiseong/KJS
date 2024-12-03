@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "From Ideas to Products,\nFrom Products to Value",
+    "subtitle": "I'm Jiseong Kim, a product builder enabling faster iterations than anyone else"
+  },
+  "profile": {
+    "name": "John Doe",
+    "intro": "Passionate Frontend Developer"
+  },
+  "education": {
+    "title": "학력",
+    "list": [
+      {
+        "image": "",
+        "name": "고려대학교",
+        "major": "산업경영공학부",
+        "subMajor": "영어영문학(이중전공)"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "list": [
+      {
+        "company": "ABC Tech",
+        "position": "Frontend Developer",
+        "period": "2021.03 - Present",
+        "achievements": [
+          "Developed responsive web applications using React and Next.js",
+          "Implemented state management using Redux and Context API",
+          "Collaborated with UX/UI designers to create intuitive user interfaces"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "chartLabel": "Skill Level",
+    "list": [
+      { "name": "JavaScript", "level": 90 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "React", "level": 88 },
+      { "name": "Next.js", "level": 82 },
+      { "name": "Tailwind CSS", "level": 80 }
+    ],
+    "toolsTitle": "Tools",
+    "tools": ["Git", "Figma", "AWS", "Docker", "Jest"]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": [
+      {
+        "title": "AI-based Medical Platform - Frontend Lead",
+        "description": "Developed a user-friendly interface for an AI-powered medical diagnosis tool",
+        "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+        "liveUrl": "https://example.com/project1",
+        "githubUrl": "https://github.com/yourusername/project1",
+        "image": "/placeholder.svg"
+      }
+    ],
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code"
+  },
+  "achievements": {
+    "title": "Achievements & Certifications",
+    "list": [
+      {
+        "title": "AWS Certified Developer - Associate",
+        "description": "Achieved in 2022, demonstrating proficiency in developing and maintaining AWS-based applications"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "message": "Interested in working together? Let's connect!",
+    "cta": "Contact Me"
+  }
+}

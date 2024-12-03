@@ -1,0 +1,64 @@
+{
+  "profile": {
+    "name": "홍길동",
+    "intro": "열정적인 프론트엔드 개발자"
+  },
+  "experience": {
+    "title": "경력",
+    "list": [
+      {
+        "company": "ABC 테크",
+        "position": "프론트엔드 개발자",
+        "period": "2021.03 - 현재",
+        "achievements": [
+          "React와 Next.js를 사용하여 반응형 웹 애플리케이션 개발",
+          "Redux와 Context API를 사용한 상태 관리 구현",
+          "UX/UI 디자이너와 협업하여 직관적인 사용자 인터페이스 제작"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "기술 스택",
+    "chartLabel": "스킬 레벨",
+    "list": [
+      { "name": "JavaScript", "level": 90 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "React", "level": 88 },
+      { "name": "Next.js", "level": 82 },
+      { "name": "Tailwind CSS", "level": 80 }
+    ],
+    "toolsTitle": "도구",
+    "tools": ["Git", "Figma", "AWS", "Docker", "Jest"]
+  },
+  "portfolio": {
+    "title": "포트폴리오",
+    "projects": [
+      {
+        "title": "AI 기반 의료 플랫폼 - 프론트엔드 리드",
+        "description": "AI 기반 의료 진단 도구를 위한 사용자 친화적 인터페이스 개발",
+        "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+        "liveUrl": "https://example.com/project1",
+        "githubUrl": "https://github.com/yourusername/project1",
+        "image": "/placeholder.svg"
+      }
+    ],
+    "liveDemo": "라이브 데모",
+    "sourceCode": "소스 코드"
+  },
+  "achievements": {
+    "title": "수상 및 자격증",
+    "list": [
+      {
+        "title": "AWS 공인 개발자 - 어소시에이트",
+        "description": "2022년 취득, AWS 기반 애플리케이션 개발 및 유지 보수 능력 입증"
+      }
+    ]
+  },
+  "contact": {
+    "title": "연락하기",
+    "message": "함께 일해보고 싶으신가요? 연락 주세요!",
+    "cta": "연락하기"
+  }
+}
+

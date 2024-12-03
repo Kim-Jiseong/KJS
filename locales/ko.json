@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "title": "아이디어를 제품으로, \n제품을 가치로",
+    "subtitle": "누구보다 빠른 이터레이션을 가능케 하는 프로덕트 빌더 김지성입니다"
+  },
+  "profile": {
+    "name": "안녕하세요. 김지성입니다.",
+    "intro": "저는 누구보다 빠른 행동력과 실패에 대한 회복 탄력성을 바탕으로 많은 이터레이션을 가능케 하는 프로덕트 빌더입니다. \n NextJS 등의 프론트엔드 전문성을 바탕으로 백엔드, 기획, 디자인, 인프라까지 아우르며 \n 긴밀히 소통하고, 빠르게 뛰어난 제품을 만들어낼 수 있습니다."
+  },
+  "education": {
+    "title": "학력",
+    "content": [
+      {
+        "image": "https://media.licdn.com/dms/image/v2/D4D0BAQFXMVtNtUenww/company-logo_100_100/company-logo_100_100/0/1708497997286?e=1741219200&v=beta&t=rj6ZnCils6vsu_tJg5yoxH2nUTNCyg4UI1ZirmowL04",
+        "name": "고려대학교",
+        "major": "산업경영공학부",
+        "subMajor": "영어영문학(이중전공)"
+      }
+    ]
+  },
+  "workExperience": {
+    "title": "경력",
+    "list": [
+      {
+        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQFfA3TjmT4YOA/company-logo_100_100/company-logo_100_100/0/1709010882933?e=1741219200&v=beta&t=H2FQuB6Xsq_YeuraZqlYBXruSdUKqMoI-7tx0FrobOc",
+        "company": "MEDAI",
+        "position": "책임 / 시스템 개발 팀장",
+        "period": "2023.12 - 현재",
+        "achievements": [
+          "MEDAI ARNA 프로젝트 총괄 및 개발 리드",
+          "딥테크 팁스 선정 (제안서 및 IR 제작)",
+          "Seed 라운드 투자 유치 (IR 제작 및 피칭)",
+          "초기창업패키지 선정 (제안서 작성 및 피칭)",
+          "특허전략 인허가 지원사업 선정"
+        ]
+      },
+      {
+        "companyImage": "",
+        "company": "가톨릭대학교 서울성모병원",
+        "position": "산학연구원(겸임)",
+        "period": "2024.01 - 2024.04",
+        "achievements": []
+      },
+      {
+        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQEzkGoXPsnAGQ/company-logo_100_100/company-logo_100_100/0/1698400838670/pax_humana_logo?e=1741219200&v=beta&t=bXchGEP7tpm4McbPB3QsnUehBQW3xD2pd6NsXTTLp9U",
+        "company": "PAX HUMANA",
+        "position": "Co-Founder",
+        "period": "2023.06 - 2023.12",
+        "achievements": [
+          "Multi-Agent 업무 자동화 솔루션 - Veclix 기획 및 개발",
+          "LLM 연애 시뮬레이션 - Realmate 기획, 디자인 및 개발",
+          "LLM based RPG 게임 - Lastoria 기획, 디자인 및 개발",
+          "TypeScript, Next.js 기반 프론트엔드 앱 개발",
+          "AWS 인프라 구축(EC2, RDS, S3) 및 FastAPI 백엔드 개발"
+        ]
+      },
+      {
+        "companyImage": "",
+        "company": "One Clean",
+        "position": "Co-Founder",
+        "period": "2023.01 - 2023.06",
+        "achievements": [
+          "청소인력 매칭 플랫폼 '원클린' 공동창업",
+          "Next.js 기반 웹 애플리케이션 개발",
+          "AWS 클라우드 인프라 구축"
+        ]
+      },
+      {
+        "companyImage": "",
+        "company": "PicoLabs",
+        "position": "Co-Founder",
+        "period": "2022.01 - 2023.01",
+        "achievements": [
+          "개인맞춤형 니치향수 브랜드 '다움' 공동창업자",
+          "Next.js 기반 향수 추천 웹 애플리케이션 개발",
+          "향수 8종 제품 개발 및 인증"
+        ]
+      }
+    ]
+  },
+  "otherExperience": {
+    "title": "기타 경력",
+    "list": [
+      {
+        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQG-X_SzbuKLMg/company-logo_100_100/company-logo_100_100/0/1694650403818?e=1741219200&v=beta&t=fzz5nITdFO1r892eutw7uXynWmFjF12hrmJEzmG_4lU",
+        "company": "FOUNDERS",
+        "position": "멤버",
+        "period": "2024.01 - 2024.02",
+        "achievements": ["서연고카포 연합 창업학회"]
+      },
+      {
+        "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQFhBvMugr-U5Q/company-logo_100_100/company-logo_100_100/0/1702355562363/nextxlikelion_logo?e=1741219200&v=beta&t=MyKp_EJVU7Ne64SCc0DG166iShyzBVVzCG1wLUe4fCk",
+        "company": "고려대학교 NEXT X LIKELION",
+        "position": "부회장",
+        "period": "2021.01 - 2023.12",
+        "achievements": [
+          "11기 FE Lead",
+          "10기 부회장",
+          "9기 교육과정 수료",
+          "-- 기타 프로젝트 --",
+          "공식 홈페이지 제작",
+          "랜덤 통화 데이팅 어플, 연고링",
+          "퇴직 전문 인력 프로젝트 매칭 플랫폼, REET",
+          "독강메이트 매칭 플랫폼, 코독"
+        ]
+      },
+      {
+        "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQHcgieIlQeRxQ/company-logo_100_100/company-logo_100_100/0/1692077057460/gdsc_depauw_logo?e=1741219200&v=beta&t=4qvn1hEtTuCmy2o9U9Nxxw6T_Qw_qvtZVCCdVfgSg6U",
+        "company": "Google Developer Student Clubs",
+        "position": "Core",
+        "period": "2022.09 - 2023.08",
+        "achievements": [
+          "구글 솔루션 챌린지 출전 - AI 동작 인식 기반 노인 재활 운동 지원 서비스 ",
+          "Next.js 기반 추천 웹 애플리케이션 개발 및 강의"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "기술 스택",
+    "description": "프론트엔드를 중심으로, 백엔드 및 디자인, 인프라를 아우르며 소통하고, 문제를 빠르게 해결할 수 있습니다",
+    "list": [
+      { "name": "Frontend", "level": 100 },
+      { "name": "Backend", "level": 65 },
+      { "name": "LLM", "level": 95 },
+      { "name": "Design", "level": 70 },
+      { "name": "Business", "level": 80 }
+    ],
+    "stacks": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "styled-components",
+      "recoil",
+      "FastAPI",
+      "LangChain",
+      "LlamaIndex",
+      "Crew AI",
+      "AWS",
+      "PostgreSQL",
+      "supabase",
+      "UI Design"
+    ],
+    "toolsTitle": "도구",
+    "tools": [
+      "Git",
+      "Figma",
+      "AWS",
+      "Docker",
+      "Slack",
+      "Notion",
+      "Adobe Premiere Pro"
+    ]
+  },
+  "portfolio": {
+    "title": "포트폴리오",
+    "projects": [
+      {
+        "title": "AI 기반 의료 플랫폼 - 프론트엔드 리드",
+        "description": "AI 기반 의료 진단 도구를 위한 사용자 친화적 인터페이스 개발",
+        "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+        "liveUrl": "https://example.com/project1",
+        "githubUrl": "https://github.com/yourusername/project1",
+        "image": "/placeholder.svg"
+      }
+    ],
+    "liveDemo": "라이브 데모",
+    "sourceCode": "소스 코드"
+  },
+
+  "achievements": {
+    "title": "수상 및 자격증",
+    "list": [
+      {
+        "title": "AWS 공인 개발자 - 어소시에이트",
+        "description": "2022년 취득, AWS 기반 애플리케이션 개발 및 유지 보수 능력 입증"
+      }
+    ]
+  },
+  "contact": {
+    "title": "연락하기",
+    "message": "함께 일해보고 싶으신가요? 연락 주세요!",
+    "cta": "연락하기"
+  }
+}
