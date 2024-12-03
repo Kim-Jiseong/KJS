@@ -30,7 +30,7 @@ function HeroSection() {
           {title.split("").map((char, index) => (
             <motion.span
               key={index}
-              className="text-5xl font-bold inline-block"
+              className="text-5xl font-bold inline-block text-background"
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
@@ -101,7 +101,7 @@ function HeroSection() {
         </div>
       </div>
       <div
-        className="absolute inset-0 z-[1] bg-gradient-to-b from-black/50 to-black/20 backdrop-blur-[1px] pointer-events-none"
+        className="absolute inset-0 z-[1] bg-gradient-to-b from-foreground/50 to-foreground/20 backdrop-blur-[1px] pointer-events-none"
         style={{ opacity }}
       />
       <Canvas className="absolute inset-0 z-0">
