@@ -29,7 +29,7 @@ function PortfolioAnimatedCard({
     triggerOnce: false,
     threshold: 0.1,
   });
-  console.log(project);
+  // console.log(project);
   return (
     <>
       <motion.div

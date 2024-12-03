@@ -23,7 +23,7 @@ function HeroSection() {
   return (
     <div className="w-full h-[100vh] sticky top-0 left-0">
       <div
-        className="z-10 w-full h-full flex flex-col absolute items-center justify-center pointer-events-none"
+        className="z-10 w-full h-full flex flex-col absolute items-center justify-center md:pointer-events-none"
         style={{ opacity }}
       >
         <div className="text-background  flex-wrap flex justify-center items-center overflow-hidden text-center px-4 break-keep ">
