@@ -24,7 +24,7 @@ export default function Skills() {
   const { t } = useTranslation();
   const [ref, inView] = useInView({
     triggerOnce: false,
-    threshold: 0.6,
+    threshold: 0.45,
   });
 
   const skills = t("skills.list", { returnObjects: true }) as any[];
