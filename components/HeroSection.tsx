@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense } from "react";
+import React, { Suspense, useState } from "react";
 import Background3D from "./Background3D";
 import { useTranslation } from "react-i18next";
 import { motion, useScroll } from "framer-motion";
@@ -11,7 +11,7 @@ function HeroSection() {
   const { t } = useTranslation();
   const title = t("hero.title");
   const { scrollY } = useScroll();
-  const [opacity, setOpacity] = React.useState(1);
+  const [opacity, setOpacity] = useState(1);
 
   React.useEffect(() => {
     return scrollY.onChange((latest) => {
@@ -35,14 +35,24 @@ function HeroSection() {
               animate={{ y: 0, opacity: 1 }}
               transition={{
                 duration: 0.2,
-                delay: index * 0.05 + 0.5,
+                delay: index * 0.2 + 0.5,
               }}
             >
               {word}
             </motion.span>
           ))}
         </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2">
+        <div
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2"
+          onClick={() => {
+            const viewportHeight = window.innerHeight;
+            const currentScroll = window.scrollY;
+            window.scrollTo({
+              top: currentScroll + viewportHeight,
+              behavior: "smooth",
+            });
+          }}
+        >
           <motion.div
             className="cursor-pointer text-background "
             initial={{ y: -50, opacity: 0 }}
@@ -60,14 +70,6 @@ function HeroSection() {
                 duration: 0.8,
                 delay: 2,
               },
-            }}
-            onClick={() => {
-              const viewportHeight = window.innerHeight;
-              const currentScroll = window.scrollY;
-              window.scrollTo({
-                top: currentScroll + viewportHeight,
-                behavior: "smooth",
-              });
             }}
           >
             <svg
