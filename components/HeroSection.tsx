@@ -26,20 +26,19 @@ function HeroSection() {
         className="z-10 w-full h-full flex flex-col absolute items-center justify-center md:pointer-events-none"
         style={{ opacity }}
       >
-        <div className="text-background  flex-wrap flex justify-center items-center overflow-hidden text-center px-4 break-keep ">
-          {title.split("").map((char, index) => (
+        <div className="text-background flex-wrap flex justify-center items-center overflow-hidden text-center px-4 break-keep">
+          {title.split(" ").map((word, index) => (
             <motion.span
               key={index}
-              className="text-5xl font-bold inline-block text-background"
+              className="text-5xl font-bold inline-block text-background mr-[0.3em]"
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
                 duration: 0.2,
-                delay: index * 0.05,
-                // ease: "easeOut",
+                delay: index * 0.05 + 0.5,
               }}
             >
-              {char === " " ? "\u00A0" : char === "\n" ? <br /> : char}
+              {word}
             </motion.span>
           ))}
         </div>

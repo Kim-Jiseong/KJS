@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <section
       ref={ref}
-      className="relative z-10 py-20 text-center bg-foreground/90 text-background"
+      className="relative z-10 py-20 text-center bg-foreground/90 text-background px-4"
     >
       <motion.h2
         initial={{ opacity: 0, y: 30 }}

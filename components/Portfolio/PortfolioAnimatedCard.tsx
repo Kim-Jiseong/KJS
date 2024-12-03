@@ -63,14 +63,14 @@ function PortfolioAnimatedCard({
             position: "relative",
           }}
         >
-          <div className=" absolute inset-0 p-6 bg-gradient-to-t from-black via-black/80 to-black/0 transform translate-y-3/4 transition-transform duration-500 group-hover:translate-y-1/3">
+          <div className=" absolute inset-0 p-6 bg-gradient-to-t from-black via-black/80 to-black/0 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
             {/* <div className="flex flex-col w-full"> */}
             <h2 className="relative text-2xl font-bold inline-block">
               <span className="after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-1 after:bg-cyan-500 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-500">
                 {project.title}
               </span>
             </h2>
-            <p className="text-white/80 mt-4 mb-6 opacity-0 transition-opacity duration-500 delay-300 group-hover:opacity-100">
+            <p className="text-white/80 mt-4 mb-4 opacity-0 transition-opacity duration-500 delay-300 group-hover:opacity-100">
               {project.introduction}
             </p>
             {/* </div> */}
