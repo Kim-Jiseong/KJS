@@ -61,12 +61,14 @@ function HeroSection() {
                 delay: 2,
               },
             }}
-            onClick={() =>
+            onClick={() => {
+              const viewportHeight = window.innerHeight;
+              const currentScroll = window.scrollY;
               window.scrollTo({
-                top: window.innerHeight,
+                top: currentScroll + viewportHeight,
                 behavior: "smooth",
-              })
-            }
+              });
+            }}
           >
             <svg
               width="40"
