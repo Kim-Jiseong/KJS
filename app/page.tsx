@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen">
       <HeroSection />
-      <div className="relative z-10 container mx-auto bg-background/80 px-8 py-8 rounded-xl">
+      <div className="relative z-10 container mx-auto bg-background/80 px-8 py-8 rounded-xl overflow-x-hidden">
         <LanguageToggle />
         <Profile />
         <WorkExperience />

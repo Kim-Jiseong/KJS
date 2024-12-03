@@ -6,8 +6,8 @@ import { useInView } from "react-intersection-observer";
 export default function Achievements() {
   const { t } = useTranslation();
   const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
+    triggerOnce: false,
+    threshold: 0.5,
   });
 
   const achievements = t("achievements.list", { returnObjects: true }) as any[];
@@ -20,7 +20,7 @@ export default function Achievements() {
       transition={{ duration: 0.5 }}
       className="py-20"
     >
-      <h2 className="text-3xl font-bold mb-8 text-center">
+      <h2 className="text-3xl font-bold mb-8 text-left">
         {t("achievements.title")}
       </h2>
       <div className="grid md:grid-cols-2 gap-8">
@@ -32,8 +32,16 @@ export default function Achievements() {
             transition={{ delay: index * 0.2 }}
             className="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-6 shadow-lg"
           >
+            {achievement.media && (
+              <div className="w-full mb-4 relative overflow-hidden after:content-[''] after:block after:pb-[56%] rounded-xl">
+                <img
+                  src={achievement.media}
+                  className="w-full h-full object-cover absolute inset-0 rounded-xl"
+                />
+              </div>
+            )}
             <h3 className="text-xl font-semibold mb-2">{achievement.title}</h3>
-            <p className="text-gray-300">{achievement.description}</p>
+            <p className="text-gray-500">{achievement.description}</p>
           </motion.div>
         ))}
       </div>

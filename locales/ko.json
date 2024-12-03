@@ -225,14 +225,22 @@
     "title": "수상 및 자격증",
     "list": [
       {
-        "title": "AWS 공인 개발자 - 어소시에이트",
-        "description": "2022년 취득, AWS 기반 애플리케이션 개발 및 유지 보수 능력 입증"
+        "title": "고려대학교 글로벌 IR 경진대회 - 대상",
+        "description": "창업 IR 경진대회(영어)",
+        "organized": "고려대학교",
+        "media": "https://media.licdn.com/dms/image/v2/D562DAQE66dNESDIyEw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1726218235339?e=1733828400&v=beta&t=UU1U0ducAcDQchKBMSQYp8vYdMHKE6YKdmMiojksOjU"
+      },
+      {
+        "title": "2023 Seoul AI Hub Y-deathon - 대상",
+        "description": "LLM 활용 서비스 경진대회",
+        "organized": "서울 AI hub",
+        "media": "https://media.licdn.com/dms/image/v2/D562DAQFoNLuN99gtYQ/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1714466749085?e=1733828400&v=beta&t=D7KDzYX1vm6DWws7hS7p2I3hvbbBy_MJRzDKk4uSUp0"
       }
     ]
   },
   "contact": {
-    "title": "연락하기",
-    "message": "함께 일해보고 싶으신가요? 연락 주세요!",
-    "cta": "연락하기"
+    "title": "커피챗은 언제나 환영입니다",
+    "message": "함께 일해보고 싶으신가요? 지금 바로 연락 주세요!",
+    "cta": "☕ Email로 연락하기"
   }
 }
