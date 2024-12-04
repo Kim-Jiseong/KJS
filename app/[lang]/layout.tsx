@@ -82,6 +82,9 @@ export async function generateMetadata({
         "ko-KR": "/ko",
       },
     },
+    verification: {
+      google: "KzhwYq3LsQIgeYXCHhirp5PCXuAwLDB_0P4zKod83J0",
+    },
     // robots: {
     //   index: true,
     //   follow: true,
