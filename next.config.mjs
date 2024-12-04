@@ -7,6 +7,16 @@ const nextConfig = {
         hostname: "media.licdn.com",
         pathname: "**",
       },
+      {
+        protocol: "http",
+        hostname: "localhost",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "kjs.vercel.app",
+        pathname: "**",
+      },
     ],
   },
 };
