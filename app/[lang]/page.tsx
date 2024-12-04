@@ -1,4 +1,4 @@
-import Profile from "../../components/Profile";
+import Profile from "../../components/Profile/Profile";
 import Skills from "../../components/Skills/Skills";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import Achievements from "../../components/Achievements";

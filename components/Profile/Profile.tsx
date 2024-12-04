@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 import { Linkedin, Mail } from "lucide-react";
-import EducationCard from "./EducationCard";
+import EducationCard from "../EducationCard";
 
 export default function Profile({ content }: { content: any }) {
   const [ref, inView] = useInView({
@@ -24,7 +24,7 @@ export default function Profile({ content }: { content: any }) {
       >
         <div className="relative w-full aspect-square pb-[100%]">
           <Image
-            src="/image/profile1.jpg"
+            src={"/ko/image/profile1.jpg"}
             alt={content.name}
             fill
             className="absolute inset-0 rounded-xl object-cover border-2 border-gray-300"
