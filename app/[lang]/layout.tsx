@@ -56,7 +56,7 @@ export async function generateMetadata({
       alternateLocales: ["en_US", "ko_KR"],
       images: [
         {
-          url: "/og-image.png",
+          url: "/images/profile1.jpg",
           width: 1200,
           height: 630,
           alt: isKorean
@@ -73,7 +73,7 @@ export async function generateMetadata({
       description: isKorean
         ? "아이디어를 제품으로, 제품을 가치로 만드는 프로덕트 빌더"
         : "Product Builder turning ideas into products, products into value",
-      images: ["/og-image.png"],
+      images: ["/images/profile1.jpg"],
     },
     alternates: {
       canonical: "/",

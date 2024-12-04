@@ -25,7 +25,6 @@ export default function Profile({ content }: { content: any }) {
         <div className="relative w-full aspect-square pb-[100%]">
           <Image
             src={`/images/profile1.jpg`}
-            // src={`${process.env.NEXT_PUBLIC_BASE_URL}/images/profile1.jpg`}
             alt={content.name}
             fill
             className="absolute inset-0 rounded-xl object-cover border-2 border-gray-300"
