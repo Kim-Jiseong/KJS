@@ -61,7 +61,7 @@ function PortfolioAnimatedCard({
             backgroundImage: `url(${project.images[0]})`,
           }}
         >
-          <div className=" absolute inset-0 p-6 bg-gradient-to-b from-black via-black/60 to-black/0 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+          <div className=" absolute inset-0 p-6 bg-gradient-to-b from-black via-black/60 to-black/0 transform -translate-y-full transition-transform duration-500 group-hover:-translate-y-0">
             {/* <div className="flex flex-col w-full"> */}
             <h2 className="relative text-2xl font-bold inline-block">
               <span className="after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-1 after:bg-cyan-500 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-500">
