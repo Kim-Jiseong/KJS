@@ -15,6 +15,7 @@ export function middleware(request: NextRequest) {
     pathname.startsWith("/_next/") ||
     pathname.startsWith("/static/") ||
     pathname.startsWith("/images/") ||
+    pathname.startsWith("/opengraph-image") ||
     pathname.startsWith("/favicon.ico") ||
     pathname === "/robots.txt" ||
     pathname === "/sitemap.xml"
