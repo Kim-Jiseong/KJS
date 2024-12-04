@@ -41,7 +41,7 @@ export default function Skills({ content }: { content: any }) {
         <div className="flex flex-col gap-4">
           <div className="flex flex-col">
             <h3 className="text-2xl font-semibold mb-4">Stacks</h3>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-2">
               {stacks.map((stack: string, index: number) => (
                 <motion.span
                   key={index}
@@ -57,7 +57,7 @@ export default function Skills({ content }: { content: any }) {
           </div>
           <div className="flex flex-col">
             <h3 className="text-2xl font-semibold mb-4">Tools</h3>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-2">
               {tools.map((tool: string, index: number) => (
                 <motion.span
                   key={index}

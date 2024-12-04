@@ -12,10 +12,10 @@ import {
 } from "@/components/ui/dialog";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Carousel from "../common/Carousel/Carousel";
+// import Carousel from "../common/Carousel/Carousel";
 import { EmblaOptionsType } from "embla-carousel";
 import { ScrollArea } from "../ui/scroll-area";
-const OPTIONS: EmblaOptionsType = {};
+// const OPTIONS: EmblaOptionsType = {};
 
 function PortfolioAnimatedCard({
   project,
@@ -29,7 +29,7 @@ function PortfolioAnimatedCard({
     triggerOnce: false,
     threshold: 0.1,
   });
-  // console.log(project);
+
   return (
     <>
       <motion.div
@@ -56,11 +56,9 @@ function PortfolioAnimatedCard({
         }}
       >
         <div
-          className="w-full group text-white bg-cover bg-center rounded-2xl overflow-hidden transform transition-transform duration-500 hover:scale-105 focus-within:scale-105"
+          className="relative pt-[72%] md:pt-[56.25%] w-full group text-white bg-cover bg-center rounded-2xl overflow-hidden transform transition-transform duration-500 hover:scale-105 focus-within:scale-105"
           style={{
             backgroundImage: `url(${project.images[0]})`,
-            paddingTop: "56.25%",
-            position: "relative",
           }}
         >
           <div className=" absolute inset-0 p-6 bg-gradient-to-b from-black via-black/60 to-black/0 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
@@ -122,7 +120,7 @@ function PortfolioAnimatedCard({
               <DialogFooter className="flex justify-end gap-2">
                 {project.liveUrl && (
                   <Button
-                    variant="outline"
+                    variant={`${project.githubUrl ? "outline" : "default"}`}
                     size="sm"
                     onClick={(e) => {
                       e.stopPropagation();
