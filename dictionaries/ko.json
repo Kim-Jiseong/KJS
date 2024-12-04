@@ -5,18 +5,18 @@
   },
   "profile": {
     "name": "안녕하세요. 김지성입니다.",
-    "intro": "저는 누구보다 빠른 행동력과 실패에 대한 회복 탄력성을 바탕으로 많은 이터레이션을 가능케 하는 프로덕트 빌더입니다. \n NextJS 등의 프론트엔드 전문성을 바탕으로 백엔드, 기획, 디자인, 인프라까지 아우르며 \n 긴밀히 소통하고, 빠르게 뛰어난 제품을 만들어낼 수 있습니다."
-  },
-  "education": {
-    "title": "학력",
-    "content": [
-      {
-        "image": "https://media.licdn.com/dms/image/v2/D4D0BAQFXMVtNtUenww/company-logo_100_100/company-logo_100_100/0/1708497997286?e=1741219200&v=beta&t=rj6ZnCils6vsu_tJg5yoxH2nUTNCyg4UI1ZirmowL04",
-        "name": "고려대학교",
-        "major": "산업경영공학부",
-        "subMajor": "영어영문학(이중전공)"
-      }
-    ]
+    "intro": "저는 누구보다 빠른 행동력과 실패에 대한 회복 탄력성을 바탕으로 많은 이터레이션을 가능케 하는 프로덕트 빌더입니다. \n NextJS 등의 프론트엔드 전문성을 바탕으로 백엔드, 기획, 디자인, 인프라까지 아우르며 \n 긴밀히 소통하고, 빠르게 뛰어난 제품을 만들어낼 수 있습니다.",
+    "education": {
+      "title": "학력",
+      "content": [
+        {
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQFXMVtNtUenww/company-logo_100_100/company-logo_100_100/0/1708497997286?e=1741219200&v=beta&t=rj6ZnCils6vsu_tJg5yoxH2nUTNCyg4UI1ZirmowL04",
+          "name": "고려대학교",
+          "major": "산업경영공학부",
+          "subMajor": "영어영문학(이중전공)"
+        }
+      ]
+    }
   },
   "workExperience": {
     "title": "경력",

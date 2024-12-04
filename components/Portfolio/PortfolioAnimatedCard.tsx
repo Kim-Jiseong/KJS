@@ -63,7 +63,7 @@ function PortfolioAnimatedCard({
             position: "relative",
           }}
         >
-          <div className=" absolute inset-0 p-6 bg-gradient-to-t from-black via-black/80 to-black/0 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+          <div className=" absolute inset-0 p-6 bg-gradient-to-b from-black via-black/60 to-black/0 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
             {/* <div className="flex flex-col w-full"> */}
             <h2 className="relative text-2xl font-bold inline-block">
               <span className="after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-1 after:bg-cyan-500 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-500">
@@ -93,7 +93,20 @@ function PortfolioAnimatedCard({
               <DialogDescription className="mb-4">
                 <p className="whitespace-pre-line">{project.description}</p>
               </DialogDescription>
-              <div className="w-full flex flex-col gap-4">
+              <div className="flex flex-wrap gap-1 mb-4">
+                {project.technologies.map((tech: string, index: number) => (
+                  <motion.span
+                    key={index}
+                    initial={{ scale: 0 }}
+                    animate={inView ? { scale: 1 } : {}}
+                    transition={{ delay: index * 0.1 }}
+                    className="bg-gray-500 text-white px-3 py-1 rounded-full text-sm"
+                  >
+                    {tech}
+                  </motion.span>
+                ))}
+              </div>
+              <div className="w-full flex flex-col gap-4 mb-4">
                 {/* <Carousel slides={project.images} options={OPTIONS} /> */}
                 {project.images.map((image: string, index: number) => (
                   <img

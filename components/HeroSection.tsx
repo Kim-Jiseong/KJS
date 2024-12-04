@@ -3,13 +3,11 @@
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense, useState } from "react";
 import Background3D from "./Background3D";
-import { useTranslation } from "react-i18next";
 import { motion, useScroll } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-function HeroSection() {
-  const { t } = useTranslation();
-  const title = t("hero.title");
+function HeroSection({ content }: { content: any }) {
+  const title = content.title;
   const { scrollY } = useScroll();
   const [opacity, setOpacity] = useState(1);
 
@@ -27,7 +25,7 @@ function HeroSection() {
         style={{ opacity }}
       >
         <div className="text-background flex-wrap flex justify-center items-center overflow-hidden text-center px-4 break-keep">
-          {title.split(" ").map((word, index) => (
+          {title.split(" ").map((word: string, index: number) => (
             <motion.span
               key={index}
               className="text-5xl font-bold inline-block text-background mr-[0.3em]"
@@ -43,7 +41,7 @@ function HeroSection() {
           ))}
         </div>
         <div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 pointer-events-auto"
           onClick={() => {
             const viewportHeight = window.innerHeight;
             const currentScroll = window.scrollY;
@@ -99,12 +97,12 @@ function HeroSection() {
               ease: "easeInOut",
             }}
           >
-            {t("hero.scrollMessage", "Scroll down")}
+            Scroll down
           </motion.p>
         </div>
       </div>
       <div
-        className="absolute inset-0 z-[1] bg-gradient-to-b from-foreground/50 to-foreground/20 backdrop-blur-[1px] pointer-events-none"
+        className="absolute inset-0 z-[1] bg-gradient-to-b from-foreground/50 to-foreground/20 backdrop-blur-[2px] pointer-events-none"
         style={{ opacity }}
       />
       <Canvas className="absolute inset-0 z-0">

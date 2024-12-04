@@ -1,31 +1,16 @@
 "use client";
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import {
-  Card,
-  CardDescription,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardFooter,
-} from "./ui/card";
-import { Label } from "recharts";
-import { Input } from "postcss";
-import { Button } from "./ui/button";
+
 import ExperienceCard from "./ExperienceCard";
 
-export default function OtherExperience() {
-  const { t } = useTranslation();
+export default function OtherExperience({ content }: { content: any }) {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.2,
   });
 
-  const experiences = t("otherExperience.list", {
-    returnObjects: true,
-  }) as any[];
-
+  const experiences = content.list;
   return (
     <motion.section
       initial={{ opacity: 0 }}

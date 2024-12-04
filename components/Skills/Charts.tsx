@@ -1,6 +1,4 @@
 "use client";
-
-import { TrendingUp } from "lucide-react";
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts";
 
 import {
@@ -17,16 +15,6 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-import { useTranslation } from "react-i18next";
-import { useInView } from "react-intersection-observer";
-const chartData = [
-  { month: "January", desktop: 186 },
-  { month: "February", desktop: 305 },
-  { month: "March", desktop: 237 },
-  { month: "April", desktop: 273 },
-  { month: "May", desktop: 209 },
-  { month: "June", desktop: 214 },
-];
 
 const chartConfig = {
   desktop: {
@@ -36,22 +24,22 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export default function Charts({
+  content,
   config,
   data,
   animation,
 }: {
+  content: any;
   config?: ChartConfig;
   data: any;
   animation: boolean;
 }) {
-  const { t } = useTranslation();
-
   return (
     <Card className="overflow-hidden">
       <CardHeader className="items-center">
         <CardTitle>Skills Distribution</CardTitle>
         <CardDescription className="text-center">
-          {t("skills.description")}
+          {content.description}
         </CardDescription>
       </CardHeader>
       <CardContent className="h-[300px]">

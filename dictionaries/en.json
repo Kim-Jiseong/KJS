@@ -5,19 +5,20 @@
   },
   "profile": {
     "name": "Hello, I am Jiseong Kim.",
-    "intro": "I am a product builder who enables rapid iterations through unparalleled agility and resilience to failure. \nLeveraging my expertise in front-end technologies like NextJS, I encompass backend, planning, design, and infrastructure, allowing for close communication and swift creation of outstanding products."
+    "intro": "I am a product builder who enables rapid iterations through unparalleled agility and resilience to failure. \nLeveraging my expertise in front-end technologies like NextJS, I encompass backend, planning, design, and infrastructure, allowing for close communication and swift creation of outstanding products.",
+    "education": {
+      "title": "Education",
+      "content": [
+        {
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQFXMVtNtUenww/company-logo_100_100/company-logo_100_100/0/1708497997286?e=1741219200&v=beta&t=rj6ZnCils6vsu_tJg5yoxH2nUTNCyg4UI1ZirmowL04",
+          "name": "Korea University",
+          "major": "Department of Industrial Management Engineering",
+          "subMajor": "English Language and Literature (Double Major)"
+        }
+      ]
+    }
   },
-  "education": {
-    "title": "Education",
-    "content": [
-      {
-        "image": "https://media.licdn.com/dms/image/v2/D4D0BAQFXMVtNtUenww/company-logo_100_100/company-logo_100_100/0/1708497997286?e=1741219200&v=beta&t=rj6ZnCils6vsu_tJg5yoxH2nUTNCyg4UI1ZirmowL04",
-        "name": "Korea University",
-        "major": "Department of Industrial Management Engineering",
-        "subMajor": "English Language and Literature (Double Major)"
-      }
-    ]
-  },
+
   "workExperience": {
     "title": "Work Experience",
     "list": [

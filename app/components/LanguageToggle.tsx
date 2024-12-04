@@ -1,17 +1,15 @@
 "use client";
 
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { useState } from "react";
 import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
+import { useRouter } from "next/navigation";
 
-export default function LanguageToggle() {
-  const { i18n } = useTranslation();
+export default function LanguageToggle({ lang }: { lang: string }) {
+  const router = useRouter();
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === "ko" ? "en" : "ko";
-    i18n.changeLanguage(newLang);
+    router.push(lang === "ko" ? "/en" : "/ko");
   };
 
   const { theme, setTheme } = useTheme();
@@ -38,7 +36,7 @@ export default function LanguageToggle() {
         onClick={toggleLanguage}
         className="bg-white bg-opacity-20 backdrop-blur-lg rounded-full px-4 py-2 text-sm font-semibold"
       >
-        {i18n.language === "ko" ? "EN" : "한국어"}
+        {lang === "ko" ? "EN" : "한국어"}
       </motion.button>
     </div>
   );

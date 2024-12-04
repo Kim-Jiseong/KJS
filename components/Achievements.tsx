@@ -1,16 +1,14 @@
 "use client";
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-export default function Achievements() {
-  const { t } = useTranslation();
+export default function Achievements({ content }: { content: any }) {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.5,
   });
 
-  const achievements = t("achievements.list", { returnObjects: true }) as any[];
+  const achievements = content.list;
 
   return (
     <motion.section
@@ -20,9 +18,7 @@ export default function Achievements() {
       transition={{ duration: 0.5 }}
       className="py-20"
     >
-      <h2 className="text-3xl font-bold mb-8 text-left">
-        {t("achievements.title")}
-      </h2>
+      <h2 className="text-3xl font-bold mb-8 text-left">{content.title}</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {achievements.map((achievement: any, index: number) => (
           <motion.div

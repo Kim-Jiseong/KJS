@@ -1,30 +1,10 @@
 "use client";
-import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import { useInView } from "react-intersection-observer";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
+import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
-export default function EducationCard() {
-  const { t } = useTranslation();
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.2,
-  });
-  const edu = (
-    t("education.content", {
-      returnObjects: true,
-    }) as any[]
-  )[0] as any;
-
+export default function EducationCard({ content }: { content: any }) {
+  const edu = content.content[0];
   return (
     <Card className="w-full flex mt-2">
       <CardHeader>

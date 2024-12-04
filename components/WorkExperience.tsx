@@ -1,19 +1,16 @@
 "use client";
-import { useTranslation } from "react-i18next";
+
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ExperienceCard from "./ExperienceCard";
 
-export default function WorkExperience() {
-  const { t } = useTranslation();
+export default function WorkExperience({ content }: { content: any }) {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.2,
   });
 
-  const experiences = t("workExperience.list", {
-    returnObjects: true,
-  }) as any[];
+  const experiences = content.list;
 
   return (
     <motion.section

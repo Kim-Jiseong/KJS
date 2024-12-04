@@ -1,35 +1,17 @@
 "use client";
-
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts";
-import {
-  ChartContainer,
-  ChartLegend,
-  ChartLegendContent,
-  ChartTooltip,
-  ChartTooltipContent,
-} from "@/components/ui/chart";
 import Charts from "./Charts";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "../ui/card";
 
-export default function Skills() {
-  const { t } = useTranslation();
+export default function Skills({ content }: { content: any }) {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.45,
   });
 
-  const skills = t("skills.list", { returnObjects: true }) as any[];
-  const stacks = t("skills.stacks", { returnObjects: true }) as string[];
-  const tools = t("skills.tools", { returnObjects: true }) as string[];
+  const skills = content.list;
+  const stacks = content.stacks;
+  const tools = content.tools;
 
   const chartConfig = skills.reduce((acc: any, skill: any) => {
     acc[skill.name] = {
@@ -50,7 +32,12 @@ export default function Skills() {
     >
       <h2 className="text-3xl font-bold mb-8 text-left">Skills</h2>
       <div className="grid md:grid-cols-2 gap-8">
-        <Charts animation={inView} config={chartConfig} data={skills} />
+        <Charts
+          content={content}
+          animation={inView}
+          config={chartConfig}
+          data={skills}
+        />
         <div className="flex flex-col gap-4">
           <div className="flex flex-col">
             <h3 className="text-2xl font-semibold mb-4">Stacks</h3>

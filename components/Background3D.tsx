@@ -3,15 +3,18 @@ import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import { OrbitControls } from "@react-three/drei";
 import { Mesh } from "three";
+import { useTheme } from "next-themes";
 
 export default function Background3D() {
   const meshRef = useRef<Mesh>(null);
+  const { theme } = useTheme();
 
   const getColorBasedOnMode = () => {
-    const isDarkMode = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-    return isDarkMode ? "#fff" : "#000";
+    return theme === "dark" ? "#fff" : "#000";
+  };
+
+  const getEmissiveIntensityOnMode = () => {
+    return theme === "dark" ? 1 : 0;
   };
 
   useFrame(() => {
@@ -31,9 +34,17 @@ export default function Background3D() {
         dampingFactor={0.05}
         rotateSpeed={0.5}
       />
+      {/* <ambientLight intensity={0.5} />
+      <pointLight position={[10, 10, 10]} intensity={0.5} /> */}
+
       <mesh ref={meshRef}>
         <torusKnotGeometry args={[10, 3, 100, 16]} />
-        <meshStandardMaterial color={`${getColorBasedOnMode()}`} wireframe />
+        <meshStandardMaterial
+          // color={getColorBasedOnMode()}
+          emissive={getColorBasedOnMode()}
+          emissiveIntensity={getEmissiveIntensityOnMode()}
+          wireframe
+        />
       </mesh>
     </>
   );

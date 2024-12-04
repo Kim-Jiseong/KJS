@@ -1,15 +1,11 @@
 "use client";
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-// import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
 import Image from "next/image";
-import { useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import { Linkedin, Mail } from "lucide-react";
 import EducationCard from "./EducationCard";
 
-export default function Profile() {
-  const { t } = useTranslation();
+export default function Profile({ content }: { content: any }) {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.2,
@@ -29,12 +25,12 @@ export default function Profile() {
         <div className="relative w-full aspect-square pb-[100%]">
           <Image
             src="/image/profile1.jpg"
-            alt={t("profile.name")}
+            alt={content.name}
             fill
             className="absolute inset-0 rounded-xl object-cover border-2 border-gray-300"
           />
         </div>
-        <EducationCard />
+        <EducationCard content={content.education} />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -42,8 +38,8 @@ export default function Profile() {
         transition={{ duration: 0.5, delay: 1 }}
         className="w-full text-center md:text-right "
       >
-        <h1 className="text-4xl font-bold mb-4">{t("profile.name")}</h1>
-        <p className="mb-6 whitespace-pre-line">{t("profile.intro")}</p>
+        <h1 className="text-4xl font-bold mb-4">{content.name}</h1>
+        <p className="mb-6 whitespace-pre-line">{content.intro}</p>
 
         <div className="flex justify-end space-x-4 text-xl text-gray-500">
           <a

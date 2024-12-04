@@ -1,10 +1,8 @@
 "use client";
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-export default function Contact() {
-  const { t } = useTranslation();
+export default function Contact({ content }: { content: any }) {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.2,
@@ -21,7 +19,7 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-3xl font-bold mb-8"
       >
-        {t("contact.title")}
+        {content.title}
       </motion.h2>
 
       <motion.p
@@ -30,7 +28,7 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.4 }}
         className="text-xl mb-8"
       >
-        {t("contact.message")}
+        {content.message}
       </motion.p>
 
       <motion.a
@@ -40,7 +38,7 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="inline-block bg-blue-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-600 transition-colors"
       >
-        {t("contact.cta")}
+        {content.cta}
       </motion.a>
     </section>
   );
