@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 export default function Achievements({ content }: { content: any }) {
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.5,
   });
 

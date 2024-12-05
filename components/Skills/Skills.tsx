@@ -5,7 +5,7 @@ import Charts from "./Charts";
 
 export default function Skills({ content }: { content: any }) {
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.45,
   });
 
