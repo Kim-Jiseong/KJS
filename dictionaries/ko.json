@@ -212,7 +212,7 @@
         "liveUrl": "https://kuin.me/",
         "githubUrl": "",
         "images": [
-          "https://media.licdn.com/dms/image/v2/D562DAQF6BD2LPo1Q6w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1727152607364?e=1733824800&v=beta&t=76iHUPbCI_ZgfpckST49Hz1dAf4rk7uZBM06VOEYe1E",
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kuin1.jpg",
           "https://media.licdn.com/dms/image/sync/v2/D5627AQHQhvcQuz46fQ/articleshare-shrink_800/articleshare-shrink_800/0/1727153247846?e=1733824800&v=beta&t=7qD4DsfW8WIbufdDECovVGb4T5FK0-MtPWzdDjdx1YM"
         ]
       }
@@ -226,13 +226,13 @@
         "title": "고려대학교 글로벌 IR 경진대회 - 대상",
         "description": "창업 IR 경진대회(영어)",
         "organized": "고려대학교",
-        "media": "https://media.licdn.com/dms/image/v2/D562DAQE66dNESDIyEw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1726218235339?e=1733828400&v=beta&t=UU1U0ducAcDQchKBMSQYp8vYdMHKE6YKdmMiojksOjU"
+        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/GlobalIR.jpg"
       },
       {
         "title": "2023 Seoul AI Hub Y-deathon - 대상",
         "description": "LLM 활용 서비스 경진대회",
         "organized": "서울 AI hub",
-        "media": "https://media.licdn.com/dms/image/v2/D562DAQFoNLuN99gtYQ/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1714466749085?e=1733828400&v=beta&t=D7KDzYX1vm6DWws7hS7p2I3hvbbBy_MJRzDKk4uSUp0"
+        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/aihub.jpg"
       }
     ]
   },
