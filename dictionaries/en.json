@@ -173,11 +173,11 @@
           "PostgreSQL",
           "FastAPI"
         ],
-        "liveUrl": "https://youtu.be/LOgp4_CNgtY",
+        "liveUrl": "",
         "githubUrl": "",
         "images": [
-          "https://media.licdn.com/dms/image/v2/D562DAQHYRT0hdywQpw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733388770991?e=1733994000&v=beta&t=0GePw9YYv55qCASCY5ECDaHZ4m4Pz2qiyj__vgrrht8",
-          "https://media.licdn.com/dms/image/v2/D562DAQGe4WJwsnUQaA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733388783120?e=1733994000&v=beta&t=G40aTNPbphXEZV4Nx6bMgkQ72pFCuwLD629iE8rUwl0"
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/ARNA0.jpg",
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/ARNA1.jpg"
         ]
       },
       {
@@ -195,10 +195,10 @@
         "liveUrl": "https://groopy.me",
         "githubUrl": "",
         "images": [
-          "https://media.licdn.com/dms/image/v2/D562DAQHGCTaZtNRx5w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218303916?e=1733824800&v=beta&t=PmUSehnvXVrqTwr1EU4bPHN6XW5pNlOLBtJOvjazIbs",
-          "https://media.licdn.com/dms/image/v2/D562DAQHKltWu34zoYw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218326595?e=1733824800&v=beta&t=rpX059YzP_PGq8-IW0xP6dATsPrJuZKK7cOoB7sXohM",
-          "https://media.licdn.com/dms/image/v2/D562DAQGpi8sksC9muQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218343420?e=1733824800&v=beta&t=NbDSzY-QoGsN9zYA_TuZO-zi_CS3RYsSg4fDVatazvc",
-          "https://media.licdn.com/dms/image/v2/D562DAQHbGtU9u-NgyA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733218351851?e=1733824800&v=beta&t=FNF6Sea3tzTOljCXTrdPJb0ssEEquIgbJKIEZJQe9kk"
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy1.jpg",
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy2.jpg",
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy3.jpg",
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy4.jpg" 
         ]
       },
       {
@@ -215,8 +215,8 @@
         "liveUrl": "https://kuin.me/",
         "githubUrl": "",
         "images": [
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kuin1.jpg",
-          "https://media.licdn.com/dms/image/sync/v2/D5627AQHQhvcQuz46fQ/articleshare-shrink_800/articleshare-shrink_800/0/1727153247846?e=1733824800&v=beta&t=7qD4DsfW8WIbufdDECovVGb4T5FK0-MtPWzdDjdx1YM"
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/kuin1.jpg",
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/kuin2.jpg"
         ]
       }
     ]
@@ -229,13 +229,13 @@
         "title": "Korea University Global IR Competition - Grand Prize",
         "description": "Entrepreneurship IR Competition (English)",
         "organized": "Korea University",
-        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/GlobalIR.jpg"
+        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/achievements/GlobalIR.jpg?t=2025-01-16T05%3A14%3A10.284Z"
       },
       {
         "title": "2023 Seoul AI Hub Y-deathon - Grand Prize",
         "description": "LLM Application Service Competition",
         "organized": "Seoul AI Hub",
-        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/aihub.jpg"
+        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/achievements/aihub.jpg"
       }
     ]
   },
