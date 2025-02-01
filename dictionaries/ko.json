@@ -136,6 +136,7 @@
       "FastAPI",
       "LangChain",
       "LlamaIndex",
+      "Vercel AI SDK",
       "Crew AI",
       "AWS",
       "PostgreSQL",

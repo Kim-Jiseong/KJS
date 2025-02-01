@@ -72,7 +72,7 @@
         "position": "Co-Founder",
         "period": "Jan 2022 - Jan 2023",
         "achievements": [
-          "Co-founder of 'Daum', a personalized niche perfume brand",
+          "Co-founder of 'Daoom', a personalized niche perfume brand",
           "Developed perfume recommendation web application based on Next.js",
           "Developed and certified 8 perfume products"
         ]
@@ -139,6 +139,7 @@
       "FastAPI",
       "LangChain",
       "LlamaIndex",
+      "Vercel AI SDK",
       "Crew AI",
       "AWS",
       "PostgreSQL",
@@ -198,7 +199,7 @@
           "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy1.jpg",
           "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy2.jpg",
           "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy3.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy4.jpg" 
+          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy4.jpg"
         ]
       },
       {
