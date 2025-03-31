@@ -19,7 +19,7 @@ export default function Achievements({ content }: { content: any }) {
       className="py-20"
     >
       <h2 className="text-3xl font-bold mb-8 text-left">{content.title}</h2>
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         {achievements.map((achievement: any, index: number) => (
           <motion.div
             key={index}

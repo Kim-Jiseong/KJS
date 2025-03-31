@@ -10,7 +10,7 @@
       "title": "학력",
       "content": [
         {
-          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQFXMVtNtUenww/company-logo_100_100/company-logo_100_100/0/1708497997286?e=1741219200&v=beta&t=rj6ZnCils6vsu_tJg5yoxH2nUTNCyg4UI1ZirmowL04",
+          "image": "/images/asset/logo/ku.jpg",
           "name": "고려대학교",
           "major": "산업경영공학부",
           "subMajor": "영어영문학(이중전공)"
@@ -22,10 +22,17 @@
     "title": "경력",
     "list": [
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQFfA3TjmT4YOA/company-logo_100_100/company-logo_100_100/0/1709010882933?e=1741219200&v=beta&t=H2FQuB6Xsq_YeuraZqlYBXruSdUKqMoI-7tx0FrobOc",
+        "companyImage": "/images/asset/logo/thermit.png",
+        "company": "Thermit",
+        "position": "CEO",
+        "period": "2025.02 - 현재",
+        "achievements": ["프로모션 디자인 자동화 AI SaaS, Creazy 개발 및 운영"]
+      },
+      {
+        "companyImage": "/images/asset/logo/medai.png",
         "company": "MEDAI",
         "position": "책임 / 시스템 개발 팀장",
-        "period": "2023.12 - 현재",
+        "period": "2023.12 - 2025.02",
         "achievements": [
           "MEDAI ARNA 프로젝트 총괄 및 개발 리드",
           "딥테크 팁스 선정 (제안서 및 IR 제작)",
@@ -42,7 +49,7 @@
         "achievements": []
       },
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQEzkGoXPsnAGQ/company-logo_100_100/company-logo_100_100/0/1698400838670/pax_humana_logo?e=1741219200&v=beta&t=bXchGEP7tpm4McbPB3QsnUehBQW3xD2pd6NsXTTLp9U",
+        "companyImage": "/images/asset/logo/pax_humana.jpeg",
         "company": "PAX HUMANA",
         "position": "Co-Founder",
         "period": "2023.06 - 2023.12",
@@ -82,14 +89,21 @@
     "title": "기타 경력",
     "list": [
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQG-X_SzbuKLMg/company-logo_100_100/company-logo_100_100/0/1694650403818?e=1741219200&v=beta&t=fzz5nITdFO1r892eutw7uXynWmFjF12hrmJEzmG_4lU",
+        "companyImage": "/images/asset/logo/kairos.png",
+        "company": "KAIROS",
+        "position": "운영진",
+        "period": "2025.02 - 현재",
+        "achievements": ["고려대학교 LLM 학회"]
+      },
+      {
+        "companyImage": "/images/asset/logo/founders.jpeg",
         "company": "FOUNDERS",
         "position": "멤버",
         "period": "2024.01 - 2024.02",
         "achievements": ["서연고카포 연합 창업학회"]
       },
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQFhBvMugr-U5Q/company-logo_100_100/company-logo_100_100/0/1702355562363/nextxlikelion_logo?e=1741219200&v=beta&t=MyKp_EJVU7Ne64SCc0DG166iShyzBVVzCG1wLUe4fCk",
+        "companyImage": "/images/asset/logo/next.jpeg",
         "company": "고려대학교 NEXT X LIKELION",
         "position": "부회장",
         "period": "2021.01 - 2023.12",
@@ -105,7 +119,7 @@
         ]
       },
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQHcgieIlQeRxQ/company-logo_100_100/company-logo_100_100/0/1692077057460/gdsc_depauw_logo?e=1741219200&v=beta&t=4qvn1hEtTuCmy2o9U9Nxxw6T_Qw_qvtZVCCdVfgSg6U",
+        "companyImage": "/images/asset/logo/gdsc.jpeg",
         "company": "Google Developer Student Clubs",
         "position": "Core",
         "period": "2022.09 - 2023.08",
@@ -173,10 +187,7 @@
         ],
         "liveUrl": "",
         "githubUrl": "",
-        "images": [
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/ARNA0.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/ARNA1.jpg"
-        ]
+        "images": ["/images/asset/ARNA0.jpg", "/images/asset/ARNA1.jpg"]
       },
       {
         "title": "groopy",
@@ -193,10 +204,10 @@
         "liveUrl": "https://groopy.me",
         "githubUrl": "",
         "images": [
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy1.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy2.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy3.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy4.jpg"
+          "/images/asset/groopy1.jpg",
+          "/images/asset/groopy2.jpg",
+          "/images/asset/groopy3.jpg",
+          "/images/asset/groopy4.jpg"
         ]
       },
       {
@@ -212,10 +223,7 @@
         ],
         "liveUrl": "https://kuin.me/",
         "githubUrl": "",
-        "images": [
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/kuin1.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/kuin2.jpg"
-        ]
+        "images": ["/images/asset/kuin1.jpg", "/images/asset/kuin2.jpg"]
       }
     ]
   },
@@ -224,16 +232,22 @@
     "title": "수상 및 자격증",
     "list": [
       {
+        "title": "SKT 에이닷 얼리어닷터 - 대상",
+        "description": "LLM 프롬프트 엔지니어링 챌린지",
+        "organized": "SKT",
+        "media": "/images/asset/adot.jpg"
+      },
+      {
         "title": "고려대학교 글로벌 IR 경진대회 - 대상",
         "description": "창업 IR 경진대회(영어)",
         "organized": "고려대학교",
-        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/achievements/GlobalIR.jpg?t=2025-01-16T05%3A14%3A10.284Z"
+        "media": "/images/asset/GlobalIR.jpg"
       },
       {
         "title": "2023 Seoul AI Hub Y-deathon - 대상",
         "description": "LLM 활용 서비스 경진대회",
         "organized": "서울 AI hub",
-        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/achievements/aihub.jpg"
+        "media": "/images/asset/aihub.jpg"
       }
     ]
   },

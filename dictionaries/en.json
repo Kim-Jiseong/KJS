@@ -23,10 +23,17 @@
     "title": "Work Experience",
     "list": [
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQFfA3TjmT4YOA/company-logo_100_100/company-logo_100_100/0/1709010882933?e=1741219200&v=beta&t=H2FQuB6Xsq_YeuraZqlYBXruSdUKqMoI-7tx0FrobOc",
+        "companyImage": "/images/asset/logo/thermit.png",
+        "company": "Thermit",
+        "position": "CEO",
+        "period": "2025.02 - Present",
+        "achievements": ["Promotional Design Automating AI SaaS, Creazy"]
+      },
+      {
+        "companyImage": "/images/asset/logo/medai.png",
         "company": "MEDAI",
         "position": "System Lead / Head of System Development Team",
-        "period": "Dec 2023 - Present",
+        "period": "Dec 2023 - 2025.02",
         "achievements": [
           "Overall Project Lead and Development Lead for MEDAI ARNA",
           "Selected for Deep Tech TIPS (Prepared proposals and IR materials)",
@@ -43,7 +50,7 @@
         "achievements": []
       },
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQEzkGoXPsnAGQ/company-logo_100_100/company-logo_100_100/0/1698400838670/pax_humana_logo?e=1741219200&v=beta&t=bXchGEP7tpm4McbPB3QsnUehBQW3xD2pd6NsXTTLp9U",
+        "companyImage": "/images/asset/logo/pax_humana.jpeg",
         "company": "PAX HUMANA",
         "position": "Co-Founder",
         "period": "Jun 2023 - Dec 2023",
@@ -83,7 +90,14 @@
     "title": "Other Experience",
     "list": [
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQG-X_SzbuKLMg/company-logo_100_100/company-logo_100_100/0/1694650403818?e=1741219200&v=beta&t=fzz5nITdFO1r892eutw7uXynWmFjF12hrmJEzmG_4lU",
+        "companyImage": "/images/asset/logo/kairos.png",
+        "company": "KAIROS",
+        "position": "Advisor",
+        "period": "2025.02 - 현재",
+        "achievements": ["Korea University LLM Society"]
+      },
+      {
+        "companyImage": "/images/asset/logo/founders.jpeg",
         "company": "FOUNDERS",
         "position": "Member",
         "period": "Jan 2024 - Feb 2024",
@@ -92,7 +106,7 @@
         ]
       },
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQFhBvMugr-U5Q/company-logo_100_100/company-logo_100_100/0/1702355562363/nextxlikelion_logo?e=1741219200&v=beta&t=MyKp_EJVU7Ne64SCc0DG166iShyzBVVzCG1wLUe4fCk",
+        "companyImage": "/images/asset/logo/next.jpeg",
         "company": "Korea University NEXT X LIKELION",
         "position": "Vice President",
         "period": "Jan 2021 - Dec 2023",
@@ -108,7 +122,7 @@
         ]
       },
       {
-        "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQHcgieIlQeRxQ/company-logo_100_100/company-logo_100_100/0/1692077057460/gdsc_depauw_logo?e=1741219200&v=beta&t=4qvn1hEtTuCmy2o9U9Nxxw6T_Qw_qvtZVCCdVfgSg6U",
+        "companyImage": "/images/asset/logo/gdsc.jpeg",
         "company": "Google Developer Student Clubs",
         "position": "Core",
         "period": "Sep 2022 - Aug 2023",
@@ -176,10 +190,7 @@
         ],
         "liveUrl": "",
         "githubUrl": "",
-        "images": [
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/ARNA0.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/ARNA1.jpg"
-        ]
+        "images": ["/images/asset/ARNA0.jpg", "/images/asset/ARNA1.jpg"]
       },
       {
         "title": "groopy",
@@ -196,10 +207,10 @@
         "liveUrl": "https://groopy.me",
         "githubUrl": "",
         "images": [
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy1.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy2.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy3.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/groopy4.jpg"
+          "/images/asset/groopy1.jpg",
+          "/images/asset/groopy2.jpg",
+          "/images/asset/groopy3.jpg",
+          "/images/asset/groopy4.jpg"
         ]
       },
       {
@@ -215,10 +226,7 @@
         ],
         "liveUrl": "https://kuin.me/",
         "githubUrl": "",
-        "images": [
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/kuin1.jpg",
-          "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/portfolio/kuin2.jpg"
-        ]
+        "images": ["/images/asset/kuin1.jpg", "/images/asset/kuin2.jpg"]
       }
     ]
   },
@@ -227,16 +235,22 @@
     "title": "Awards and Certifications",
     "list": [
       {
+        "title": "SKT LLM ADOT Earlyadottor - Grand Prize",
+        "description": "LLM Prompt Engineering Challenge",
+        "organized": "SKT",
+        "media": "/images/asset/adot.jpg"
+      },
+      {
         "title": "Korea University Global IR Competition - Grand Prize",
         "description": "Entrepreneurship IR Competition (English)",
         "organized": "Korea University",
-        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/achievements/GlobalIR.jpg?t=2025-01-16T05%3A14%3A10.284Z"
+        "media": "/images/asset/GlobalIR.jpg"
       },
       {
         "title": "2023 Seoul AI Hub Y-deathon - Grand Prize",
         "description": "LLM Application Service Competition",
         "organized": "Seoul AI Hub",
-        "media": "https://vufqadhpxvvugtkaeyjx.supabase.co/storage/v1/object/public/assets/other/kjs-info/achievements/aihub.jpg"
+        "media": "/images/asset/aihub.jpg"
       }
     ]
   },
